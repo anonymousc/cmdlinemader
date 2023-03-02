@@ -1,0 +1,15 @@
+#!/bin/bash
+
+clear
+ls
+read -p "enter your file.sh to convert it into bin : " file
+read -p "what do you want call it : " filename
+sleep 3
+echo "LOADING..."
+echo "CREATING..." ; shc -f $file -o $filename
+rm $file.x.c
+echo "CREATED!"
+echo "returning into a cmdline"
+sleep 3
+mv $filename /usr/sbin/ && /sbin/ &> /dev/null
+echo "DONE!"
