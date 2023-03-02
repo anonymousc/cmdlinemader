@@ -1,4 +1,5 @@
 # cmdlinemader
+its a tool that makes the sh files to a bin <br />
 the script is still updating 
 # to run it properly
 #### try to do these <br />
