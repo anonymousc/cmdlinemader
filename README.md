@@ -13,4 +13,4 @@ cd cmdlinemader
 chmod 777 cmder
 sudo ./cmder
 ```
-and it will run properly
+> and it will run properly
