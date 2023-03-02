@@ -1,5 +1,4 @@
 #!/bin/bash
-
 clear
 ls
 read -p "enter your file.sh to convert it into bin : " file
